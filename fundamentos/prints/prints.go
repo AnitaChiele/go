@@ -13,8 +13,8 @@ func main() {
 	x := 3.141516
 
 	// não dá pra utilizar a concatenação no print para
-	// imprimir a variável, ex:
-	// fmt.Println("O valor de x é "+ x)
+	// imprimir uma variável que não seja do tipo string,
+	// ex: fmt.Println("O valor de x é "+ x)
 
 	xs := fmt.Sprint(x)
 	fmt.Println("O valor de x é " + xs)

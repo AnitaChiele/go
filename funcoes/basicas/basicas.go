@@ -26,7 +26,14 @@ func f5(p1, p2 string, a1 float64) string {
 	return f.Sprintf("F5: %s %s %.2f", p1, p2, a1)
 }
 
-// retorna duas strings | retorno múltiplos
+/*
+	Retorno múltiplos: retorna duas strings.
+	Para utilizar o retorno múltiplo é necessário que os retornos da função
+	estejam declarados entre parenteses, ou seja, o código abaixo daria erro:
+		func f6(p1, p2 int) segundo int, primeiro int {
+		}
+}
+*/
 func f6() (string, string) {
 	return "Retorno 1", "Retorno 2"
 }

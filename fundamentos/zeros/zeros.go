@@ -10,7 +10,7 @@ func main() {
 	// ponteiro de int:
 	var e *int
 
-	// em go o NULL do ponteiro é nil.
+	// em go o NULL é nil.
 	f.Printf("\n%v | %v | %v | %v | %v", a, b, c, d, e)
 
 	// a string não é nula, é vazia.

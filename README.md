@@ -43,5 +43,9 @@ Está acessível a partir da pasta do usuário em uma pasta chamada: go.
 Acessar o diretório onde está o teste e rodar o comando:
 `$ go test`
 
-## Rodando os testes no modo verboso:
+## Rodando todos os testes do projeto
+Acessar o diretório onde está o teste e rodar o comando:
+`$ go test ./...`
+
+## Rodando os testes no modo verboso
 `$ go test -v`

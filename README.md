@@ -38,3 +38,7 @@ Está acessível a partir da pasta do usuário em uma pasta chamada: go.
 **bin**: tem os arquivos executáveis.
 **pkg**: os compilados (separado por arquiteturas).
 **src**: arquivos de desenvolvimento.
+
+# Rodando os testes
+Acessar o diretório onde está o teste e rodar o comando:
+`$ go test`

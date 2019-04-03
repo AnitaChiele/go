@@ -49,3 +49,22 @@ Acessar o diretório onde está o teste e rodar o comando:
 
 ## Rodando os testes no modo verboso
 `$ go test -v`
+
+## Rodando o coverage
+Só funciona dentro do diretório da pasta GO.
+`$ go test -cover`
+
+### Para gerar um arquivo com o resultado
+`$ go test -coverprofile=<nome-arquivo>.out`
+Ex:
+`$ go test -coverprofile=resultado.out`
+
+#### Para ler o arquivo do resultado do teste que foi gerado
+`$ go tool cover -func=<nome-arquivo-gerado>.out`
+Ex:
+`$ go tool cover -func=resultado.out`
+
+#### Para gerar um arquivo .html com o resultado do teste
+`$ go tool cover -html=<nome-arquivo-gerado>.out`
+Ex:
+`$ go tool cover -html=resultado.out`

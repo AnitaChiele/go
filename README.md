@@ -1,43 +1,40 @@
-# go
+# Welcome to StackEdit!
 
-Habilitado a documentação offline (segura o terminal):
-`$ godoc -htpp=:<PORTA>`
+Curso udemy: [Curso go](http://www.udemy.com/curso-go).
 
-Exemplo:
-`$ godoc -htpp=:1313`
-
-Verificar infomrações do go:
+# Verificando as informações do GO
 `$ go env`
 `$ go env GOROOT`
 `$ go env GOPATH`
 
-Verifica se há problemas de compilação:
+# Verifica se há problemas de compilação
 `$ go vet <nome-arquivo.go>`
 
-Compila e executa:
+# Compila e executa
 `$ go build <nome-arquivo.go>`
 `$ go run <nome-arquivo.go>`
 
-Instalando pacotes:
+# Instalando pacotes
 `$ go get -u <nome-pacote>`
+
 Exemplo:
 `$ go get -u github.com/go-sql-driver/mysql`
+`$ go get -u github.com/AnitaChiele/go_src`
 
-Rodando pacotes no linux:
+# Rodando pacotes
+## Linux
 Acessar o diretório dos pacotes e executar:
 `$ go run *.go`
 
-Rodando pacotes no windows:
+## Windows
 Acessar o diretório dos pacotes e executar:
 `$ go run arquivo01.go arquivo02.go`
->> No caso do windows é necessário especificar arquivo por arquivo.
+> No caso do windows é necessário especificar arquivo por arquivo.
 
-Diretório GO:
+# Diretório pasta GO
 Está acessível a partir da pasta do usuário em uma pasta chamada: go.
-Pastas:
-bin: tem os arquivos executáveis.
-pkg: os compilados (separado por arquiteturas)
-src: arquivos de desenvolvimento.
 
-O restante do curso será utilizando outro repo onde terá versionado dentro
-de src github.com
+## Pastas:
+**bin**: tem os arquivos executáveis.
+**pkg**: os compilados (separado por arquiteturas).
+**src**: arquivos de desenvolvimento.

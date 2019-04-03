@@ -9,6 +9,8 @@ import (
 /*
 	Google I/O 2012 - Go Concurrency Patterns:
 	https://www.youtube.com/watch?v=f6kdp27TYZs
+
+	Generator é um padrão. Para entender mais veja o package.
 */
 
 func main() {

@@ -20,4 +20,14 @@ func main() {
 	}
 
 	f.Println(sub(2, 3))
+
+	// outra forma de trabalhar com as funções anônimas são a declaração e a utilização direto:
+	func(frase string) {
+		f.Printf("Criando e usando funções anônimas: %s\n", frase)
+	}("hello world!")
+
+	// o parâmetro não é obrigatório
+	func() {
+		f.Printf("Criando e usando funções anônimas sem parâmetros!\n")
+	}()
 }

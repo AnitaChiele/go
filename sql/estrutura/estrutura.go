@@ -29,9 +29,9 @@ func main() {
 
 	defer db.Close()
 
-	exec(db, "create database if not exists cursogo")
-	exec(db, "use cursogo")
-	exec(db, "drop table if exists usuarios")
+	exec(db, "CREATE DATABASE IF NOT EXISTS cursogo")
+	exec(db, "USE cursogo")
+	exec(db, "DROP TABLE IF EXISTS usuarios")
 	exec(db, `CREATE TABLE usuarios (
 			id INTEGER AUTO_INCREMENT,
 			nome VARCHAR(100),

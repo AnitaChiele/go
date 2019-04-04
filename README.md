@@ -68,3 +68,9 @@ Ex:
 `$ go tool cover -html=<nome-arquivo-gerado>.out`
 Ex:
 `$ go tool cover -html=resultado.out`
+
+# Servidor HTTP
+Para executar o servidor http corretamente é necessário que seja feito pelo terminal.
+Vá até o diretório que tem o arquivo e execute:
+`$ go run <nome-arquivo>.go`
+
